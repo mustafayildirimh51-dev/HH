@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hacıosmanlar Halı; el dokuması, modern ve klasik halı-kilim koleksiyonlarını Masko Başakşehir'de premium mağaza deneyimiyle sunar."
+    />
+    <meta name="theme-color" content="#0d0c0a" />
+    <meta property="og:title" content="Hacıosmanlar Halı" />
+    <meta
+      property="og:description"
+      content="Sanat ve zanaatın buluşma noktası. El dokuması, modern ve klasik halı koleksiyonları."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero-showroom.png" />
+    <title>Hacıosmanlar Halı | Sanat ve Zanaatın Buluşma Noktası</title>
+    <link rel="preload" as="image" href="assets/hero-showroom.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Hacıosmanlar Halı",
+        "image": "assets/hero-showroom.png",
+        "email": "haciosmanlarhali@gmail.com",
+        "telephone": "+905334228999",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Masko mobilyacılar sitesi 5/B blok İkitelli",
+          "postalCode": "34490",
+          "addressLocality": "Başakşehir",
+          "addressRegion": "İstanbul",
+          "addressCountry": "TR"
+        },
+        "url": "."
+      }
+    </script>
+  </head>
+  <body>
+    <div class="page-transition" aria-hidden="true"></div>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Hacıosmanlar Halı ana sayfa">
+        <span>HH</span>
+        <strong>Hacıosmanlar Halı</strong>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Ana menü">
+        <a href="#koleksiyon">Koleksiyon</a>
+        <a href="#atelier">3D İnceleme</a>
+        <a href="#vizyon">Vizyon</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/hero-showroom.png"
+          alt="Lüks halı mağazasında dokulu premium halı sergisi"
+          fetchpriority="high"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">Masko Başakşehir</p>
+          <h1 id="hero-title">Hacıosmanlar Halı</h1>
+          <p class="hero-line">Sanat ve Zanaatın Buluşma Noktası</p>
+          <a class="primary-button" href="#koleksiyon">Koleksiyonu İncele</a>
+        </div>
+        <div class="hero-metrics" data-reveal>
+          <span><strong>El dokuması</strong> seçkiler</span>
+          <span><strong>Modern</strong> yaşam alanları</span>
+          <span><strong>Klasik</strong> miras</span>
+        </div>
+      </section>
+
+      <section class="collection section" id="koleksiyon">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Ürün vitrini</p>
+          <h2>Koleksiyonu doku, renk ve karaktere göre keşfedin.</h2>
+        </div>
+        <div class="filter-bar" role="tablist" aria-label="Kategori filtreleri" data-reveal>
+          <button class="filter active" type="button" data-filter="all">Tümü</button>
+          <button class="filter" type="button" data-filter="el">El dokuması</button>
+          <button class="filter" type="button" data-filter="modern">Modern</button>
+          <button class="filter" type="button" data-filter="klasik">Klasik</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="el" data-product="saray" data-reveal>
+            <img loading="lazy" src="assets/product-handwoven.png" alt="El dokuması yün ve ipek halı" />
+            <div class="product-copy">
+              <p>El dokuması</p>
+              <h3>Saray Dokusu</h3>
+              <span>Yün & ipek, 240 x 340 cm</span>
+            </div>
+          </article>
+          <article class="product-card" data-category="modern" data-product="nova" data-reveal>
+            <img loading="lazy" src="assets/product-modern.png" alt="Modern geometrik desenli halı" />
+            <div class="product-copy">
+              <p>Modern</p>
+              <h3>Nova Geometri</h3>
+              <span>Yün & viskon, 200 x 300 cm</span>
+            </div>
+          </article>
+          <article class="product-card" data-category="klasik" data-product="miras" data-reveal>
+            <img loading="lazy" src="assets/product-classic.png" alt="Klasik kilim desenli halı" />
+            <div class="product-copy">
+              <p>Klasik</p>
+              <h3>Miras Kilim</h3>
+              <span>Flatweave yün, 180 x 280 cm</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="atelier section" id="atelier">
+        <div class="atelier-copy" data-reveal>
+          <p class="eyebrow">3D ürün deneyimi</p>
+          <h2>Desen, hav yüksekliği ve ışık oyununu interaktif izleyin.</h2>
+          <p>
+            Dijital vitrin kurgusu, halının dokusunu ekranda da hissettirmek için gerçek zamanlı
+            ışık, mikro kabartma ve 360 derece dönebilen yüzey mantığıyla tasarlandı.
+          </p>
+          <button class="secondary-button" type="button" data-product-open="saray">
+            Seçili ürünü görüntüle
+          </button>
+        </div>
+        <div class="viewer-wrap" data-reveal>
+          <canvas id="rugViewer" aria-label="3D dönebilen halı modeli"></canvas>
+          <div class="viewer-hint">Sürükle veya dokunarak döndür</div>
+        </div>
+      </section>
+
+      <section class="vision section" id="vizyon">
+        <div class="vision-panel" data-reveal>
+          <p class="eyebrow">Teknoloji / Vizyon</p>
+          <h2>Geleneksel zanaatı çağdaş mağaza deneyimiyle buluşturuyoruz.</h2>
+        </div>
+        <div class="vision-grid">
+          <div data-reveal>
+            <span>01</span>
+            <h3>Seçilmiş kalite</h3>
+            <p>Her parça dokuma türü, malzeme dengesi ve kullanım karakterine göre değerlendirilir.</p>
+          </div>
+          <div data-reveal>
+            <span>02</span>
+            <h3>Mekân odaklı danışmanlık</h3>
+            <p>Salon, ofis veya özel alan için doğru ebat, ton ve doku birlikte planlanır.</p>
+          </div>
+          <div data-reveal>
+            <span>03</span>
+            <h3>Dijital vitrin</h3>
+            <p>Ürünleri daha net görmek için 3D, hızlı filtreleme ve akıcı mobil deneyim öne alınır.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="iletisim">
+        <div class="contact-info" data-reveal>
+          <p class="eyebrow">İletişim</p>
+          <h2>Masko mağazamıza uğrayın veya koleksiyon danışmanlığı alın.</h2>
+          <address>
+            Masko mobilyacılar sitesi 5/B blok İkitelli<br />
+            34490 Başakşehir/İstanbul, Türkiye
+          </address>
+          <div class="contact-actions">
+            <a href="tel:+905334228999">533 422 89 99</a>
+            <a href="https://wa.me/905334228999" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="mailto:haciosmanlarhali@gmail.com">haciosmanlarhali@gmail.com</a>
+          </div>
+        </div>
+        <form class="contact-form" data-reveal>
+          <label>
+            Ad Soyad
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Telefon veya E-posta
+            <input type="text" name="contact" autocomplete="email" required />
+          </label>
+          <label>
+            Mesaj
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="primary-button" type="submit">Gönder</button>
+        </form>
+        <iframe
+          class="map"
+          title="Hacıosmanlar Halı Google Harita"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Masko%20mobilyac%C4%B1lar%20sitesi%205%2FB%20blok%20%C4%B0kitelli%2034490%20Ba%C5%9Fak%C5%9Fehir%20%C4%B0stanbul%20T%C3%BCrkiye&output=embed"
+        ></iframe>
+      </section>
+    </main>
+
+    <aside class="product-drawer" aria-hidden="true" aria-labelledby="drawerTitle">
+      <button class="drawer-close" type="button" aria-label="Ürün detayını kapat">×</button>
+      <img class="drawer-image" src="assets/product-handwoven.png" alt="" />
+      <p class="eyebrow drawer-category">El dokuması</p>
+      <h2 id="drawerTitle">Saray Dokusu</h2>
+      <p class="drawer-description">
+        İpek ışıltısı ve yün sıcaklığını dengeli taşıyan, salon ve temsil alanları için prestijli bir
+        parça.
+      </p>
+      <dl>
+        <div><dt>Dokuma türü</dt><dd>El dokuması</dd></div>
+        <div><dt>Malzeme</dt><dd>Yün & ipek</dd></div>
+        <div><dt>Ebat</dt><dd>240 x 340 cm</dd></div>
+      </dl>
+      <a class="primary-button" href="https://wa.me/905334228999" target="_blank" rel="noopener">
+        WhatsApp ile Sor
+      </a>
+    </aside>
+    <div class="drawer-backdrop" hidden></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
